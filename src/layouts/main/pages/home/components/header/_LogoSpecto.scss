@@ -1,0 +1,14 @@
+.navbar-header {
+  .logo {
+    color: #fbbd61 !important;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    img {
+      max-width: 200px;
+      max-height: 90px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+:root {
+  font-size: 16px;
+  color: #717171;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  --primary-font: "Roboto-Condonsed", sans-serif;
+  line-height: 1.42857143;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@font-face {
+  font-family: "Roboto-Condonsed";
+  src: url(../fonts/RobotoCondensed-VariableFont_wght.ttf);
+}

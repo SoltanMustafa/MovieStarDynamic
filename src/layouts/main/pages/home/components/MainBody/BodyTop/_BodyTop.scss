@@ -1,0 +1,43 @@
+.BodyTop {
+  .fw-container-fluid {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    .fw-row {
+      color: #717171;
+      .fw-col-xs-12 {
+        position: relative;
+        min-height: 1px;
+        #hero {
+          overflow: hidden;
+          min-height: 600px;
+          position: relative;
+          .scroll {
+            position: absolute;
+            z-index: 99;
+            bottom: 0;
+            left: 50%;
+            margin-left: -45px;
+          }
+          #carousel {
+            .container {
+              width: 1170px;
+              padding-right: 15px;
+              padding-left: 15px;
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              display: flex;
+              margin: auto;
+              transform: none;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
